@@ -6,8 +6,8 @@
    
 #define COMPILETIME "28 Oct 2022"
 #define NPBVERSION "3.4.2"
-#define CC "gcc"
-#define CFLAGS "-O3 -fopenmp"
+#define CC "aarch64-linux-gnu-gcc"
+#define CFLAGS "-O0 -fopenmp  -static"
 #define CLINK "$(CC)"
 #define CLINKFLAGS "$(CFLAGS)"
 #define C_LIB "-lm"

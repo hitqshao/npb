@@ -15,16 +15,16 @@
         parameter (compiletime='28 Oct 2022')
         character npbversion*5
         parameter (npbversion='3.4.2')
-        character cs1*8
-        parameter (cs1='gfortran')
+        character cs1*26
+        parameter (cs1='aarch64-linux-gnu-gfortran')
         character cs2*5
         parameter (cs2='$(FC)')
         character cs3*6
         parameter (cs3='(none)')
         character cs4*6
         parameter (cs4='(none)')
-        character cs5*12
-        parameter (cs5='-O3 -fopenmp')
+        character cs5*20
+        parameter (cs5='-O0 -fopenmp -static')
         character cs6*9
         parameter (cs6='$(FFLAGS)')
         character cs7*6
